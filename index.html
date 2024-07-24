@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cody's  Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="brand">Cody <span class="bold">Liska</span></div>
+      <div class="menu-icon" onclick="toggleModal()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1><span class="bold">WELCOME TO</span> MY PORTFOLIO</h1>
+      <button onclick="scrollToContainer()">
+        <i class="fas fa-arrow-down"></i>
+      </button>
+    </div>
+
+    <div class="image-container" id="image-container">
+      <div class="item">
+        <a href="/pages/the-moon.html" data-lightbox="the_moon.jpg">
+          <div class="thumb">
+            <div class="hover-effect">
+              <div class="hover-content">
+                <h1>The <em>moon</em></h1>
+                <p>iPhone 12 and telescope</p>
+              </div>
+            </div>
+            <div class="image">
+              <img src="/img/the_moon.jpg" alt="the moon" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a
+          href="/pages/orion-nebula.html"
+          data-lightbox="orion_nebula_full.jpg"
+        >
+          <div class="thumb">
+            <div class="hover-effect">
+              <div class="hover-content">
+                <h1>Orion <em>nebula</em></h1>
+                <p>
+                  Joshua Tree January 10, 2024 <br />
+                  Accidentally caught while capturing star tail images
+                </p>
+              </div>
+            </div>
+            <div class="image">
+              <img src="/img/gallery-orion-nebula/orion_nebula_full.jpg" alt="orion nebula" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="/pages/star-trails.html" data-lightbox="star-trails.png">
+          <div class="thumb">
+            <div class="hover-effect">
+              <div class="hover-content">
+                <h1>Star <em>trails</em></h1>
+                <p>Joshua Tree January 10, 2024</p>
+              </div>
+            </div>
+            <div class="image">
+              <img src="/img/gallery-star-trails/star_trails.png" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="/pages/solar-eclipse.html" data-lightbox="solar_eclipse.JPG">
+          <div class="thumb">
+            <div class="hover-effect">
+              <div class="hover-content">
+                <h1>Solar <em>eclipse</em></h1>
+                <p>April 8, 2024: Canon T7</p>
+              </div>
+            </div>
+            <div class="image">
+              <img src="/img/gallery-solar-eclipse/IMG_1723.jpg" alt="solar eclipse" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="/pages/sunsets.html" data-lightbox="sunset.jpg">
+          <div class="thumb">
+            <div class="hover-effect">
+              <div class="hover-content">
+                <h1>Sun<em>sets</em></h1>
+                <p>###</p>
+              </div>
+            </div>
+            <div class="image">
+              <img src="/img/gallery-sunsets/IMG_0749.jpg" alt="sunset" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="/pages/spacex.html" data-lightbox="space_x.png">
+          <div class="thumb">
+            <div class="hover-effect">
+              <div class="hover-content">
+                <h1>Space <em>x</em></h1>
+                <p>
+                  SpaceX Launch April 6, 2024 from Vandenberg Space Force Base
+                  California
+                </p>
+              </div>
+            </div>
+            <div class="image">
+              <img src="/img/gallery-spacex/space_x.jpg" alt="spacex" />
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="modal" id="modal" onclick="toggleModal()">
+      <div class="modal-content" onclick="event.stopPropagation();">
+        <a href="/">Home</a>
+        <!-- <a href="#">Gallery</a> -->
+        <a href="/pages/about-me.html">About Me</a>
+      </div>
+    </div>
+
+    <div class="footer">&copy; 2024 Cody Liska. All rights reserved.</div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
