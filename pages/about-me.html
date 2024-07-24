@@ -1,136 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | Cody</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        color: #333;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-      }
-      .container {
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-        padding: 20px;
-        background: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      h1,
-      h2,
-      h3 {
-        color: #333;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 50%;
-        margin: 20px 0;
-      }
-      .contact {
-        list-style: none;
-        padding: 0;
-      }
-      .contact li {
-        margin: 10px 0;
-      }
-      .contact a {
-        text-decoration: none;
-        color: #007bff;
-      }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            max-width: 800px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: #007BFF;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .profile-img {
+            margin: 20px 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007BFF;
+        }
+        h2 {
+            font-weight: 300;
+            color: #007BFF;
+        }
+        .content h3 {
+            font-weight: 700;
+            color: #555;
+            margin-top: 20px;
+        }
+        .content p {
+            color: #555;
+            line-height: 1.8;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content ul li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            color: #555;
+        }
+        .content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <h1>About Me</h1>
-      <h2>Hello, I'm Cody</h2>
-      <img src="path/to/your/profile-picture.jpg" alt="[Your Name]" />
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <img class="profile-img" src="path/to/your/profile-picture.jpg" alt="Cody">
+        <h2>Hello, I'm Cody</h2>
+        <p>Passionate Photographer | Visual Storyteller | Creative Explorer</p>
 
-      <h3>Passionate Photographer | Visual Storyteller | Creative Explorer</h3>
-      <hr />
+        <div class="content">
+            <h3>My Journey</h3>
+            <p>Photography is more than just a hobby for me; it's a way of seeing the world through a unique lens. I began my journey into photography during the pandemic, starting with a simple camera and a curiosity about the beauty in everyday moments. Over the years, I've honed my skills, developed my style, and created a portfolio that reflects my passion for capturing the essence of life.</p>
 
-      <h3>My Journey</h3>
-      <p>
-        Photography is more than just a hobby for me; it's a way of seeing the
-        world through a unique lens. I began my journey into photography during the pandemic, 
-        starting with a simple camera and a curiosity about the
-        beauty in everyday moments. Over the years, I've honed my skills,
-        developed my style, and created a portfolio that reflects my passion for
-        capturing the essence of life.
-      </p>
+            <h3>What I Love</h3>
+            <ul>
+                <li>Portrait Photography: Capturing the emotions and stories of individuals.</li>
+                <li>Landscape Photography: Exploring nature's beauty and its vast landscapes.</li>
+                <li>Urban Photography: Finding art in the hustle and bustle of city life.</li>
+                <li>Event Photography: Documenting memorable moments and celebrations.</li>
+            </ul>
 
-      <h3>What I Love</h3>
-      <ul>
-        <li>
-          <strong>Portrait Photography</strong>: Capturing the emotions and
-          stories of individuals.
-        </li>
-        <li>
-          <strong>Landscape Photography</strong>: Exploring nature's beauty and
-          its vast landscapes.
-        </li>
-        <li>
-          <strong>Urban Photography</strong>: Finding art in the hustle and
-          bustle of city life.
-        </li>
-        <li>
-          <strong>Event Photography</strong>: Documenting memorable moments and
-          celebrations.
-        </li>
-      </ul>
+            <h3>My Approach</h3>
+            <p>Every photograph tells a story. I strive to capture moments that are authentic, spontaneous, and full of life. Whether it's a candid shot at a wedding, the serene beauty of a sunset, or the intricate details of urban architecture, my goal is to create images that resonate with viewers and evoke emotion.</p>
 
-      <h3>My Approach</h3>
-      <p>
-        Every photograph tells a story. I strive to capture moments that are
-        authentic, spontaneous, and full of life. Whether it's a candid shot at
-        a wedding, the serene beauty of a sunset, or the intricate details of
-        urban architecture, my goal is to create images that resonate with
-        viewers and evoke emotion.
-      </p>
+            <h3>Let's Connect</h3>
+            <p>I'm always excited to connect with fellow photography enthusiasts, potential clients, and anyone who appreciates the art of photography. Feel free to reach out to discuss projects, collaborations, or just to share a love for capturing moments.</p>
 
-      <h3>Let's Connect</h3>
-      <p>
-        I'm always excited to connect with fellow photography enthusiasts,
-        potential clients, and anyone who appreciates the art of photography.
-        Feel free to reach out to discuss projects, collaborations, or just to
-        share a love for capturing moments.
-      </p>
+            <h3>Contact Me</h3>
+            <p>Email: <a href="mailto:codyliska@yahoo.com">codyliska@yahoo.com</a></p>
+            <!-- <p>Phone: [Your Phone Number]</p> -->
+            <p>Social Media:
+                <a href="https://www.instagram.com/yourusername" target="_blank">Instagram</a> |
+                <a href="https://www.facebook.com/yourusername" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com/yourusername" target="_blank">Twitter</a>
+            </p>
+        </div>
 
-      <h3>Contact Me</h3>
-      <ul class="contact">
-        <li>
-          <strong>Email</strong>:
-          <a href="mailto:your-email@example.com">your-email@example.com</a>
-        </li>
-        <li><strong>Phone</strong>: [Your Phone Number]</li>
-        <li><strong>Social Media</strong>:</li>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/yourusername" target="_blank"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="https://www.facebook.com/yourusername" target="_blank"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a href="https://www.twitter.com/yourusername" target="_blank"
-              >Twitter</a
-            >
-          </li>
-        </ul>
-      </ul>
-      <p>
-        Thank you for visiting my portfolio. Let's create something beautiful
-        together!
-      </p>
+        <footer>
+            <p>Thank you for visiting my portfolio. Let's create something beautiful together!</p>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
