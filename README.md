@@ -1,6 +1,8 @@
 # codyliska.github.io
 
-# TODO:
+*Portfolio Website hosted on Github*
+
+### TODO:
 - [x] make modal lager when displaying an image
 - [x] adjust how the cards displayed. Maybe reduce the footer height to show more of the image?
 - [ ] add a link to a image host that contains my complete gallery
